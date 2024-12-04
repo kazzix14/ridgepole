@@ -89,6 +89,7 @@ module Ridgepole
         timestamptz: {},
 
         enum: {},
+        vector: {},
       }.freeze
 
       TYPES.each do |column_type, default_options|
